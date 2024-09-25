@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="flex flex-col md:flex-row items-center justify-around py-5 mb-10 bg-[#F9F7F3]">
+            <div>
+                <a class="btn bg-[#B4F461] px-7 font-bold" href="./index-3.html">Home</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <img src="assets/logo.png" alt="">
+                <p class="font-bold">Donate Bangladesh</p>
+            </div>
+            <div>
+                <h3 class="flex items-center gap-3 font-bold"><img src="assets/coin.png" alt=""><span id="donation-total">5500 BDT</span></h3>
+            </div>
+        </nav>
+        <div class="flex flex-col md:flex-row items-center justify-center gap-5 pb-7">
+            <a class="btn bg-[#B4F461] px-7 font-bold" href="">Donation</a>
+            <a class="btn bg-[#B4F461] px-7 font-bold" href="">History</a>
+        </div>
+    </header>
+    <main class="px-5 md:px-36">
+        <section>
+            <div>
+                <h1 class="text-4xl font-bold mb-5">Important FAQ</h1>
+            </div>
+            <div class="join join-vertical w-full">
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                    <div class="collapse-content">
+                        <p>The DOM is like a map of a web page that lets you change things like text, images, or buttons using code. It's how browsers understand and interact with the page, making it easy to update or control how the page looks and works.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">How do you select an Element from DOM?</div>
+                    <div class="collapse-content">
+                        <p>To select a DOM element, use: <br>
+                            getElementById("id") <br>
+                            querySelector("selector") <br>
+                            getElementsByClassName("class") <br>
+                            getElementsByTagName("tag")
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">What is event delegation in the context of DOM, and why is it useful?</div>
+                    <div class="collapse-content">
+                        <p>Event delegation is when you attach one event listener to a parent element to handle events for its child elements. It's useful because it saves memory and works even for dynamically added elements.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles?</div>
+                    <div class="collapse-content">
+                        <p>To change an element's attributes and styles in JavaScript, select it by ID and update its attributes or styles as needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

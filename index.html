@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+
+<div class=" h-[2085px] w-[100vw] "  id="preloader">
+
+<div class=" bg-[]  fixed  h-[200px] w-[100vw] z-[1] top-[0]   max-[767px]:h-[400px]">
+
+
+
+
+    <header>
+
+
+        <nav class="flex flex-col md:flex-row items-center justify-around py-5 mb-10 bg-[#fbf6e884] ">
+            <div>
+                <a class="btn bg-[#B4F461] px-7 font-bold" href="./assets/script/blog.html">Blog</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <img src="./assets/image/group0.svg" alt="">
+                <p class="font-bold">Donate Bangladesh</p>
+            </div>
+            <div>
+                <h3 class="flex items-center gap-3 font-bold"><img src="./assets/image/currency0.svg" alt=""><span id="donation-total">5500 BDT</span></h3>
+            </div>
+        </nav>
+
+
+        <div class="flex flex-col md:flex-row items-center justify-center gap-5 py-5">
+            <a id="donationBtn" class="btn  rounded-lg pt-4 pr-8 pb-4 pl-8 bg-[#B4F461] px-7 font-bold" href="">Donation</a>
+            <a id="historyBtn" class="btn   pt-4 pr-8 pb-4 pl-8  bg-[#B4F461] px-7 font-bold" href="">History</a>
+        </div>
+
+
+    </header>
+
+
+
+
+
+</div>
+
+
+
+
+<div class="relative  h-[200px] bg-[#fbf6e884]   max-[767px]:h-[400px]"></div>
+<div  class="relative h-[1885px] w-[100vw]  ">
+
+
+
+    <main class="py-14 px-5  t-[200px] md:px-36">
+        <section id="donationSection">
+            <div class="flex flex-col justify-center gap-10">
+                <div class="flex flex-col md:flex-row items-center gap-10 max-w-[1050px] justify-center">
+                    <div class="w-full md:w-1/2">
+                        <img src="./assets/image/rectangle-10.png" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="bg-[#cecdcca2] w-28 rounded-lg p-1">
+                            <h3 class="flex items-center gap-3 font-bold whitespace-nowrap"><img src="./assets/image/currency0.svg" alt=""><span class="donated">0 BDT</span></h3>
+                        </div>
+                        <h1 class="font-extrabold text-2xl py-3    text-[#111111]">Donate for Flood at Noakhali, Bangladesh</h1>
+                        <p   class="text-[rgba(17,17,17,0.70)]">The recent floods in Noakhali have caused significant damage to homes and infrastructure. Your donation will help provide essential supplies to those affected by this disaster. Every contribution, big or small, makes a difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                        <input class="donateAmount w-full py-3 px-5 mt-5" type="text" placeholder="Write Donation Amount">
+                        <button id="floodNoakhaliBtn" class="donateBtn btn bg-[#B4F461] w-full py-3 px-5 mt-5 font-bold">Donate Now</button>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center gap-10 max-w-[1050px] justify-center">
+                    <div class="w-full md:w-1/2">
+                        <img src="./assets/image/rectangle-11.png" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="bg-[#cecdcca2] w-28 rounded-lg p-1">
+                            <h3 class="flex items-center gap-3 font-bold whitespace-nowrap"><img src="./assets/image/currency0.svg" alt=""><span class="donated">0 BDT</span></h3>
+                        </div>
+                        <h1 class="font-extrabold text-2xl py-3">Donate for Flood Relief in Feni, Bangladesh</h1>
+                        <p   class="text-[rgba(17,17,17,0.70)]">Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+                        <input class="donateAmount w-full py-3 px-5 mt-5" type="text" placeholder="Write Donation Amount">
+                        <button id="floodFeniBtn" class="donateBtn btn bg-[#B4F461] w-full py-3 px-5 mt-5 font-bold">Donate Now</button>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center gap-10 max-w-[1050px] justify-center">
+                    <div class="w-full md:w-1/2">
+                        <img src="./assets/image/rectangle-12.png" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="bg-[#cecdcca2] w-28 rounded-lg p-1">
+                            <h3 class="flex items-center gap-3 font-bold whitespace-nowrap"><img src="./assets/image/currency0.svg" alt=""><span class="donated">0 BDT</span></h3>
+                        </div>
+                        <h1 class="font-extrabold text-2xl py-3">Aid for Injured in the Quota Movement</h1>
+                        <p    class="text-[rgba(17,17,17,0.70)]">Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+                        <input class="donateAmount w-full py-3 px-5 mt-5" type="text" placeholder="Write Donation Amount">
+                        <button id="aidMovementBtn" class="donateBtn btn bg-[#B4F461] w-full py-3 px-5 mt-5 font-bold">Donate Now</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="flex flex-col md:flex-row items-center gap-10 max-w-[1050px] justify-center">
+                    <div class="w-full md:w-1/2">
+                        <img src="./assets/image/child.png" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="bg-[#cecdcca2] w-28 rounded-lg p-1">
+                            <h3 class="flex items-center gap-3 font-bold whitespace-nowrap"><img src="./assets/image/currency0.svg" alt=""><span class="donated">0 BDT</span></h3>
+                        </div>
+                        <h1 class="font-extrabold text-2xl py-3">Donate to Help Children and Refugees</h1>
+                        <p    class="text-[rgba(17,17,17,0.70)]">One of the largest child charities in Bangladesh, with a sizable in-country staff and hundreds of partners, we offer a wide range of programs, including those promoting children’s basic rights to good health, education and a life free from violence. With expertly trained staff, prepositioned supplies and proven programs, we stand ready to respond swiftly and effectively to the country’s frequent emergencies.
+
+                        </p>
+                        <input class="donateAmount w-full py-3 px-5 mt-5" type="text" placeholder="Write Donation Amount">
+                        <button id="aidMovementBtn1" class="donateBtn btn bg-[#B4F461] w-full py-3 px-5 mt-5 font-bold">Donate Now</button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+
+        <section id="historySection" style="display: none;">
+            <div id="floodNoakhaliDonation"></div>
+            <div id="floodFeniDonation"></div>
+            <div id="aidMovementDonation"></div>
+            <div id="aidMovementDonation1"></div>
+        </section>
+
+
+        
+    </main>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
